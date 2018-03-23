@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<style>
+body, html {
+    height: 100%;
+    margin:0;
+   
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: black;
+}
+
+::selection {
+    color: white;
+    background: black;
+}
+a{
+   font-size:2.3vmax; 
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: -webkit-linear-gradient(top left, darkorange, aquamarine);
+    background: -moz-linear-gradient(top left, darkorange, aquamarine);
+    background: -o-linear-gradient(top left, darkorange, aquamarine);
+    background: linear-gradient(to bottom right, darkorange, aquamarine);
+}
+.bnw{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.parallax {
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info {
+    color: black;
+	padding:15%;
+	font-size:1.3vmax;
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+    	height: 50%; 
+        background-attachment: scroll;
+    }
+}
+</style>
+</head>
+<body>
+
+<div id="header" class="parallax text-center">
+    
+    <div class="align-middle" >
+    <h1 style="color:white;">xhgc</h1>
+ <div style="background-image: url('https://media.giphy.com/media/l1J9EdzfOSgfyueLm/giphy.gif'); height:1px; width:100px; margin:auto;"></div>
+ </div>
+    
+</div>
+<div class="info" style="background-color: black; color: white;">
+XHGC es un proyecto de música electrónica interactiva, donde el público puede participar  generando sonidos a través de una interfaz web accesible desde cualquier dispositivo móvil. Un espacio virtual en 360 grados donde hay figuras flotantes que al ser presionadas mandan una señal que es transformada en un sonido en armonía con la pieza interpretada en el momento y puede ser escuchada por todos los asistentes.<br>
+Cada interacción con las figuras es visible por los demás asistentes con una explosión de partículas y la aparición del nombre de usuario en la figura presionada.
+
+    
+</div>
+
+<div class="parallax bnw" style="background-image: url('img/w1bibUDrHl.gif');"></div>
+
+<div class="info" style="background-color: darkorange">
+<h6>Demo:</h6>
+<a style="color:aquamarine" href="http://dissevelt.herokuapp.com/">dissevelt.herokuapp.com</a>
+<br>
+<br><br>
+El proyecto está actualmente en progreso y es de código abierto, disponible desde:
+
+<a style="color:aquamarine" href="https://github.com/pesinasiller/dissevelt-web">github.com/pesinasiller/dissevelt-web
+</a>
+</div>
+
+<div class="parallax bnw" style="background-image: url('img/76hOsMt4lz.gif');"></div>
+
+<div class="info" style="background-color: aquamarine">
+    contacto:<br>
+    <a style="color: darkorange" href="mailto:carlospesina@gmail.com">carlospesina@gmail.com</a>
+
+</div>
+
+
+</body>
+</html>
